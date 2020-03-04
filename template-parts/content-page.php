@@ -13,7 +13,7 @@
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
-
+	
 	<?php underscores_post_thumbnail(); ?>
 
 	<div class="entry-content">
@@ -25,6 +25,7 @@
 			'after'  => '</div>',
 		) );
 		?>
+		<h1>Nos dernières conférences</h1>
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
